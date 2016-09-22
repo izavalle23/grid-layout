@@ -22,16 +22,12 @@ body {
   margin: 0;
 }
 
+.unit-xs-1{
+  width: 100%;
+}
+
 .img-flex {
   width:100%;
-}
-
-figure {
-  margin: 0;
-}
-
-figcaption {
-  padding: .5em;
 }
 
 p{
