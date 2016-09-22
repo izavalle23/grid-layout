@@ -41,5 +41,12 @@ figcaption {
 }
 
 p{
-  padding:0.05em 0;
+  padding:0.5em 0;
+}
+
+main{
+	padding:0 3% 3% 3%;
+}
+main img{
+	width: 100%;
 }
