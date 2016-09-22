@@ -27,10 +27,19 @@ body {
   width:100%;
 }
 
+.float-left{
+  float:left;
+  overflow:block;
+}
+
 figure {
   margin: 0;
 }
 
 figcaption {
   padding: .5em;
+}
+
+p{
+  padding:1em 0;
 }
