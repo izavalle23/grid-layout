@@ -23,13 +23,7 @@ body {
 }
 
 .img-flex {
-  display:block;
   width:100%;
-}
-
-.float-left{
-  float:left;
-  overflow:block;
 }
 
 figure {
@@ -57,7 +51,7 @@ main img{
   	padding:0 11% 11% 11%;
   }
   main img{
-  	width: 150%;
+  	width: 80%;
   }
 
   p{
