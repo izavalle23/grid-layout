@@ -17,8 +17,12 @@ html {
   box-sizing: inherit;
 }
 
-.img-flex {
-  width:100%;
+body {
+  margin: 0;
+}
+
+dl {
+  margin: 0;
 }
 
 h1 {
@@ -27,18 +31,6 @@ h1 {
 
 h2 {
   margin-top: 0.53em;
-}
-
-p {
-  padding:0.05em 0;
-}
-
-@media only screen and (min-width: 25em) {
-
-  p {
-    padding:0.05em 0;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -51,11 +43,6 @@ p {
     margin-bottom: 0.1em;
   }
 
-  .p {
-    display:inline-block;
-
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -64,11 +51,12 @@ p {
     margin-top: 0.7em;
   }
 
+  .grid {
+    margin-bottom: 0;
+  }
+
   figure {
     margin-top: 0.75em;
   }
 
-  .p {
-    display:inline;
-  }
 }
